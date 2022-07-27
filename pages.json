@@ -31,13 +31,24 @@
 		"list": [
 		      {
 		      "pagePath": "pages/market/market",
-		      "text": "市场"
+		      "text": "市场",
+			  "iconPath": "./static/icon/market.png",
+			  "selectedIconPath": "./static/icon/market_1.png"
 		      },
+			  {
+			  "pagePath": "pages/post/post",
+			  "text": "发布",
+			  "iconPath": "./static/icon/post.png",
+			  "selectedIconPath": "./static/icon/post_1.png"
+			  },
 		
 		      {
 		        "pagePath": "pages/my/my",
-		        "text": "我的"
+		        "text": "我的",
+				"iconPath": "./static/icon/home.png",
+				"selectedIconPath": "./static/icon/home_1.png"
 		      }
+			  
 		    ]
 	},
 	"globalStyle": {
