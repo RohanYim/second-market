@@ -1,1 +1,1 @@
-<view>my</view>
+<block wx:if="{{!userInfo.nickName}}"><view><view class="login-container"><uni-icons vue-id="704e9d00-1" type="contact-filled" size="100" color="#AFAFAF" bind:__l="__l"></uni-icons><button class="btn-login" type="primary" data-event-opts="{{[['tap',[['getUserProfile',['$event']]]]]}}" bindtap="__e">一键登录</button></view></view></block><block wx:else><userinfo vue-id="704e9d00-2" bind:__l="__l"></userinfo></block>
