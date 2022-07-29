@@ -1,5 +1,5 @@
-const appId = "wxa5bbeceb7101506f";
-const appSecret = "8ec0d4123ae6eaf2afba76f6bb4762be";
+const appId = "xxx";
+const appSecret = "xxx";
 const { open } = require("fs");
 const jwt = require("jsonwebtoken");
 
